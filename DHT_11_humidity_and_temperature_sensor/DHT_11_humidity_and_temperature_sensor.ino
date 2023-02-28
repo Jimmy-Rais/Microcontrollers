@@ -1,4 +1,5 @@
-/*The DHT 11 is an Arduino compatible humidity and temperature sensor,this sensor uses a capacitive humidity
+/*
+The DHT 11 is an Arduino compatible humidity and temperature sensor,this sensor uses a capacitive humidity
 sensor(The vapors of water present in the surrounding air will change the value of the relative permitivity 
 of the capacitor,resulting in the change of capacitance and a Negative Temperature Coefficient thermistor 
 (causes a decrease in its resistance value with increase in temperature)
@@ -6,8 +7,8 @@ of the capacitor,resulting in the change of capacitance and a Negative Temperatu
 author:JIMMY_RAIS 
 */
 #include <dht.h>
-dht DHT;
 #define DHT11_PIN 6
+dht DHT;
 void setup() {
   // put your setup code here, to run once:
 Serial.begin(9600);
